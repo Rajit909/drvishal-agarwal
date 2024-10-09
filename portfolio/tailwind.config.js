@@ -1,14 +1,11 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+// tailwind.config.js
+module.exports = {
+  darkMode: 'class', // or 'media' for system-based
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    './pages/**/*.{html,js}',
-    './components/**/*.{html,js, jsx}',
+    './src/**/*.{js,jsx,ts,tsx}', // make sure Tailwind scans your React files
   ],
   theme: {
     extend: {},
   },
   plugins: [],
-}
-
+};

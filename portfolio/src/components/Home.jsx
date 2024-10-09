@@ -3,10 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
     <>
-       <div className='h-screen'>
-       <h1 className="text-purple-500">
-       Main content!</h1>
-
+       <div className='h-screen dark:text-white dark:bg-[#1f2327] '>
        {/* Intro */}
 
        {/* About me */}
