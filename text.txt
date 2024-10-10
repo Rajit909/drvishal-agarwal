@@ -1,0 +1,9 @@
+animatin: float-y 3s linear infinite;
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E6tAtRi82QY?si=i9ifbubXJjUqusZf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+image-border:
+border-radius: 50% 0% 50% 50% / 50% 0% 50% 50%;
+
+color: #1a83c6

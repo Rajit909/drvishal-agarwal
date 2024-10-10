@@ -5,14 +5,7 @@ const Footer = () => {
     <footer className="dark:bg-[#1f2327] py-10 dark:text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* About Section */}
-          <div>
-            <h3 className="text-xl font-semibold dar:text-white">About Dr.  </h3>
-            <p className="mt-4 text-sm dark:text-gray-400">
-              Dr.   is a renowned cardiac surgeon with over 20 years of experience in heart surgery. He is committed to providing excellent patient care and advanced cardiac treatment.
-            </p>
-          </div>
-
+        
           {/* Quick Links */}
           <div>
             <h3 className="text-xl font-semibold dar:text-white">Quick Links</h3>

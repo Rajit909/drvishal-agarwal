@@ -6,6 +6,7 @@ import { GrLocation } from "react-icons/gr";
 import { TiSocialFacebook } from "react-icons/ti";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { TiSocialTwitter } from "react-icons/ti";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,8 +38,8 @@ const Navbar = () => {
           <div className="flex justify-evenly items-center py-2 gap-4">
             <div className="flex items-center py-1">
               <MdOutlineMail />{" "}
-              <span className="ml-1 mb- text-[14px] font-[Merriweather ] [2px]">
-                website@gmial.com
+              <span className="ml-1 mb- text-[14px] hover:text-[[#1a83c6]] font-[Merriweather ] [2px]">
+                website@gmail.com
               </span>
             </div>
             <div className="flex items-center py-1">
@@ -67,7 +68,8 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold">Dr.</h1>
+  
+           <h1 className="text-2xl font-bold">Dr. Vishal Agarwal</h1>
           </div>
 
           {/* Desktop Links */}
@@ -76,38 +78,38 @@ const Navbar = () => {
               <div className="ml-10 flex items-baseline space-x-4">
                 <a
                   href="#about"
-                  className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+                  className="hover:bg-[#1a83c6] px-3 py-2 rounded-md text-sm font-medium"
                 >
                   About
                 </a>
                 <a
                   href="#services"
-                  className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+                  className="hover:bg-[#1a83c6] px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Services
                 </a>
                 <a
                   href="#testimonials"
-                  className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+                  className="hover:bg-[#1a83c6] px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Testimonials
                 </a>
                 <a
                   href="#blog"
-                  className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+                  className="hover:bg-[#1a83c6] px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Blog
                 </a>
                 <a
                   href="#contact"
-                  className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+                  className="hover:bg-[#1a83c6] px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Contact
                 </a>
               </div>
               <button
                 onClick={toggleTheme}
-                className=" text-xl font-bold bg-zinc-200  p-2 rounded-full cursor-pointer dark:text-white dark:bg-gray-900 dark:hover:text-white hover:dark:bg-gray-700 text-black"
+                className=" text-xl font-bold bg-zinc-200  p-2 rounded-full cursor-pointer dark:text-white dark:bg-gray-900 dark:hover:text-white hover:dark:bg-[#1a83c6] text-black"
               >
                 {theme === "light" ? <MdDarkMode /> : <MdOutlineLightMode />}
               </button>
@@ -119,14 +121,14 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={toggleTheme}
-              className="text-xl mr-2 mb-1 font-bold bg-zinc-200 dark:bg-gray-900 dark:hover:text-white hover:dark:bg-gray-700 p-2 rounded-full  cursor-pointer "
+              className="text-xl mr-2 mb-1 font-bold bg-zinc-200 dark:bg-gray-900 dark:hover:text-white hover:dark:bg-[#1a83c6] p-2 rounded-full  cursor-pointer "
             >
               {theme === "light" ? <MdDarkMode /> : <MdOutlineLightMode />}
             </button>
             <button
               onClick={toggleMenu}
               type="button"
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-[#1a83c6] focus:outline-none"
             >
               <CgMenuRight size={25} />
             </button>
@@ -140,7 +142,7 @@ const Navbar = () => {
         <div
           className={`fixed inset-0 z-50 flex justify-end bg-gray-800 bg-opacity-75`}
         >
-          <div className="w-64 bg-violet-300 dark:bg-gray-900 text-white transform transition-transform ease-in-out duration-300 translate-x-0">
+          <div className="w-64 [#1a83c6] bg-violet-300 dark:bg-gray-900 text-white transform transition-transform ease-in-out duration-300 translate-x-0">
             <div className="p-4">
               <button
                 onClick={toggleMenu}
@@ -166,31 +168,31 @@ const Navbar = () => {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <a
                 href="#about"
-                className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700"
+                className="block px-3 py-2 rounded-md text-base font-medium hover:bg-[#1a83c6]"
               >
                 About
               </a>
               <a
                 href="#services"
-                className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700"
+                className="block px-3 py-2 rounded-md text-base font-medium hover:bg-[#1a83c6]"
               >
                 Services
               </a>
               <a
                 href="#testimonials"
-                className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700"
+                className="block px-3 py-2 rounded-md text-base font-medium hover:bg-[#1a83c6]"
               >
                 Testimonials
               </a>
               <a
                 href="#blog"
-                className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700"
+                className="block px-3 py-2 rounded-md text-base font-medium hover:bg-[#1a83c6]"
               >
                 Blog
               </a>
               <a
                 href="#contact"
-                className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700"
+                className="block px-3 py-2 rounded-md text-base font-medium hover:bg-[#1a83c6]"
               >
                 Contact
               </a>
