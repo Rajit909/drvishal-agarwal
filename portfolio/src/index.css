@@ -17,3 +17,20 @@
   .float-animation {
     animation: float-y 3s linear infinite;
 }
+
+
+.is-stiky{
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  position: -webkit-sticky;
+  position: sticky;
+  -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
+  background-color: white;
+  opacity: 1;
+}
+

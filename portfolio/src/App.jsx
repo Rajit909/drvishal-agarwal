@@ -16,7 +16,8 @@ function App() {
     {
       path: "/About",
       element: <About/>
-    }
+    }, 
+    
   ])
   return (
     <>
