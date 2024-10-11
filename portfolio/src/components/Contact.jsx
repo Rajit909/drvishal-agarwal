@@ -26,7 +26,7 @@ const Contact = () => {
   return (
     <section className="py-12 bg-gray-100 dark:bg-[#1f2327]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12" data-aos="fade-up">
           <h2 className="text-3xl leading-9 font-extrabold text-gray-900 dark:text-white sm:text-4xl">
             Contact Us
           </h2>
@@ -37,7 +37,7 @@ const Contact = () => {
 
         {/* Contact Info */}
         <div className="grid gap-8 lg:grid-cols-2">
-          <div>
+          <div data-aos="fade-right">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Get In Touch</h3>
             <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
               If you have any questions or want to work with us, feel free to send a message using the form.
@@ -59,7 +59,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <div>
+          <div data-aos="fade-left">
             {submitted ? (
               <div className="bg-green-100 p-4 rounded-lg">
                 <p className="text-green-800">Thank you for your message! We will get back to you shortly.</p>

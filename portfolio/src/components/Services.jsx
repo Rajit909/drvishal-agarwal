@@ -44,7 +44,7 @@ const Services = () => {
       <div className="container mx-auto px-8 lg:px-16">
         
         {/* Heading */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-12" data-aos="fade-up">
           <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">Services I Offer</h2>
           <p className="text-lg text-gray-600 dark:text-white">Expert cardiac care and advanced treatment options for every patient.</p>
         </div>

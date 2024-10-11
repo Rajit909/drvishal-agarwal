@@ -5,8 +5,14 @@ import { FaBook } from "react-icons/fa";
 import { FaHospital } from "react-icons/fa";
 import { BsClipboard2Plus } from "react-icons/bs";
 import { IoPerson } from "react-icons/io5";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1200 }); // You can set options like duration here
+  }, []);
   return (
     <>
       <section
@@ -14,7 +20,7 @@ const About = () => {
         className=" dark:bg-[#1f2327] dark:text-white border-b border-gray-200 dark:border-gray-700"
       >
         <div className="about-top h-96 bg-cover bg-center">
-          <h1 className="font-extrabold mx-4 md:mx-16 p-4 text-4xl md:text-6xl text-blue-800">
+          <h1 className="font-extrabold mx-4 md:mx-16 p-4 text-4xl md:text-6xl text-blue-800" >
             About me
           </h1>
           <div className="mx-6 md:mx-20 flex items-center">
@@ -26,7 +32,7 @@ const About = () => {
         </div>
         <div className="container mx-auto px-8 lg:px-16">
         <div className="  grid grid-cols-1 lg:grid-cols-2 gap-2 py-16">
-          <div className=" shadow-md ">
+          <div className=" shadow-md" data-aos="fade-left">
             <img
               src="./drvishal2.jpg"
               alt="Cardiac Surgeon img"
@@ -34,14 +40,14 @@ const About = () => {
             />
           </div>
           {/* Descriptin */}
-          <div className="p-1 py-4 md:p-10">
+          <div className="p-1 py-4 md:p-10" data-aos="fade-right">
             <h2 className="text-2xl md:text-4xl font-bold text-gray dark:text-white-800 mb-4">
               <div>About Me</div>
               <div>M.Ch. - CTV Surgery</div>
               <div>Senior Cardiac Surgeon</div>
             </h2>
             <p className="text-lg text-gray-600 mb-4 dark:text-white">
-              Hi, I'm Dr. Vishal Agarwal, a board-certified cardiac surgeon with
+              Hi, I'm  <span className="font-doctor">Dr. Vishal Agarwal</span>, a board-certified cardiac surgeon with
               over 15 years of experience. I specialize in minimally invasive
               heart surgeries and have successfully performed over 7000
               surgeries to date. My goal is to provide the highest quality care
@@ -49,7 +55,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="">
+        <div className="" data-aos="fade-up">
           <div className=" flex justify-start items-center gap-2 mb-2">
             <div className="p-3 border-[1px] text-blue-700 text-xl md:text-2xl border-blue-700 rounded-full bg-white dark:bg-[#1f2327]">
               {" "}
@@ -82,7 +88,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="mt-10">
+        <div className="mt-10" data-aos="fade-up">
           <div className=" flex justify-start items-center gap-2 mb-2">
             <div className="p-3 border-[1px] text-blue-700 text-xl md:text-2xl border-blue-700 rounded-full bg-white dark:bg-[#1f2327]">
               {" "}
@@ -130,7 +136,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className=" mt-10">
+        <div className=" mt-10" data-aos="fade-up">
           <div className=" flex justify-start items-center gap-2 mb-2">
             <div className="p-3 border-[1px] text-blue-700 text-xl md:text-2xl border-blue-700 rounded-full bg-white dark:bg-[#1f2327]">
               {" "}
@@ -188,7 +194,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="   mt-10">
+        <div className="   mt-10" data-aos="fade-up">
           <div className=" flex justify-start items-center gap-2 mb-2">
             <div className="p-3 border-[1px] text-blue-700 text-xl md:text-2xl border-blue-700 rounded-full bg-white dark:bg-[#1f2327]">
               {" "}

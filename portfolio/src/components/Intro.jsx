@@ -11,7 +11,7 @@ const IntroSection = () => {
     <section className="relative ">
       {/* Text and Content Overlay */}
       <div
-        className="relative z- flex items-center justify-center h-screen bg-cover bg-center w-full"
+        className="relative z-10 flex items-center justify-center h-screen bg-cover bg-center w-full"
         style={{ backgroundImage: "url('./drvishal.jpg')" }}
       >
         <div className="text-center text-white px-8 mt-56 font-semibold p-4">

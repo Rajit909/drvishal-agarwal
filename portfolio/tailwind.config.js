@@ -5,7 +5,11 @@ module.exports = {
     './src/**/*.{js,jsx,ts,tsx}', // make sure Tailwind scans your React files
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'doctor': ['"Playfair Display"', 'serif'],
+      },
+    },
   },
   plugins: [],
 };

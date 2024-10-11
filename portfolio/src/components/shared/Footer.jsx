@@ -7,22 +7,22 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About Section */}
-          <div>
-            <h3 className="text-xl font-semibold dar:text-white">About Dr.  </h3>
+          <div data-aos="fade-up">
+            <h3 className="text-xl font-bold dar:text-white font-doctor"> Dr.Vishal Agarwal  </h3>
             <p className="mt-4 text-sm dark:text-gray-200">
               Dr.   is a renowned cardiac surgeon with over 20 years of experience in heart surgery. He is committed to providing excellent patient care and advanced cardiac treatment.
             </p>
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div data-aos="fade-up">
             <h3 className="text-xl font-semibold dar:text-white">Quick Links</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <a href="#" className="dark:text-gray-200 hover:text-white">Home</a>
+                <a href="/" className="dark:text-gray-200 hover:text-white">Home</a>
               </li>
               <li>
-                <a href="#about" className="dark:text-gray-200 hover:text-white">About Me</a>
+                <a href="/About" className="dark:text-gray-200 hover:text-white">About Me</a>
               </li>
               <li>
                 <a href="#services" className="dark:text-gray-200 hover:text-white">Services</a>
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
 
           {/* Contact Information */}
-          <div>
+          <div data-aos="fade-up">
             <h3 className="text-xl font-semibold dark:text-white">Contact Information</h3>
             <ul className="mt-4 space-y-2 text-sm dark:text-gray-200">
               <li>Phone: +91 97x-xxx-xxxx</li>
@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
 
           {/* Social Media */}
-          <div>
+          <div data-aos="fade-up">
             <h3 className="text-xl font-semibold dark:text-white">Follow Me</h3>
             <div className="mt-4 space-x-4">
             <div className="flex items-center gap-4 pr-4 text-white">
@@ -55,8 +55,8 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="mt-8 border-t border-gray-700 pt-6 text-center text-sm dark:text-gray-200">
-          &copy; {new Date().getFullYear()} Dr.  . All rights reserved.
+        <div  className="mt-8 border-t border-gray-700 pt-6 text-center text-sm dark:text-gray-200">
+         <div > &copy; {new Date().getFullYear()} Dr.  . All rights reserved.</div>
         </div>
       </div>
     </footer>

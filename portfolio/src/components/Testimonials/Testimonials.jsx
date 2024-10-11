@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import PlayButton from "../components/PlayBtn";
+import PlayButton from "../PlayBtn";
 import { Link } from "react-router-dom";
 
 // Dummy testimonials data
@@ -11,7 +11,7 @@ const testimonials = [
     imageurl: "/patientimg/img1.png",
   },
   {
-    name: "Mr. Vivek ji",
+    name: "Vivek ji",
     youtuburl: "https://www.youtube.com/embed/Yw6xYUrd0RI?si=WrHMTeu7tkB3Om3E",
     imageurl: "/patientimg/img2.png",
   },
@@ -21,64 +21,19 @@ const testimonials = [
     imageurl: "/patientimg/img3.png",
   },
   {
-    name: "Smt. Reena ji",
+    name: " Reena ji",
     youtuburl: "https://www.youtube.com/embed/MB6trqKYXTM?si=iX85wZ8fR_Xwq3zK",
     imageurl: "/patientimg/img4.png",
   },
   {
-    name: "Mr. Sanjay ji",
+    name: "Shri Sanjay ji",
     youtuburl: "https://www.youtube.com/embed/hUeSeJr2rks?si=f0vSzT5Kug0_xDp5",
     imageurl: "/patientimg/img5.png",
   },
   {
-    name: "Mr. Matloob ji",
+    name: "Matloob ji",
     youtuburl: "https://www.youtube.com/embed/3aW-43FvicA?si=VNKZdqbARjmOnpWb",
     imageurl: "/patientimg/img6.png",
-  },
-  {
-    name: "Mr. Mahinder ji",
-    youtuburl: "https://www.youtube.com/embed/fsJdn_Yj5OM?si=vMQS4Ik0faf1mGsg",
-    imageurl: "/patientimg/img7.png",
-  },
-  {
-    name: "Mr. Vishal ji",
-    youtuburl: "https://www.youtube.com/embed/aVVYOuMdHdI?si=9jITnuCcaZHokDfx",
-    imageurl: "/patientimg/img8.png",
-  },
-  {
-    name: "Smt. Chandini ji",
-    youtuburl: "https://www.youtube.com/embed/28qvVBhe2zQ?si=VmGDCfCJkbWCmK-K",
-    imageurl: "/patientimg/img9.png",
-  },
-  {
-    name: "Mr. Tularam ji",
-    youtuburl: "https://www.youtube.com/embed/esV_E8s7pCg?si=--CxZ1RvQrX5LqkJ",
-    imageurl: "/patientimg/img10.png",
-  },
-  {
-    name: "Smt. Renu ji",
-    youtuburl: "https://www.youtube.com/embed/8NS_IlmQgdg?si=EiZA-AVWp8FkCn4f",
-    imageurl: "/patientimg/img11.png",
-  },
-  {
-    name: "Mr. AShok ji",
-    youtuburl: "https://www.youtube.com/embed/z4lks7EeNUU?si=SHIowD0LcBrWRtUA",
-    imageurl: "/patientimg/img12.png",
-  },
-  {
-    name: "Mr. Ram Singh ji",
-    youtuburl: "https://www.youtube.com/embed/feOU3GQVEfA?si=iJH0_y57BLWN9W9v",
-    imageurl: "/patientimg/img13.png",
-  },
-  {
-    name: "Smt. Malti ji",
-    youtuburl: "https://www.youtube.com/embed/V1x0mUONPBA?si=uBZhb8RFjn5A16Lp",
-    imageurl: "/patientimg/img14.png",
-  },
-  {
-    name: "Smt. Kamla ji",
-    youtuburl: "https://www.youtube.com/embed/ytDGYtob-z4?si=1HbMU64toDLtVSOH",
-    imageurl: "/patientimg/img15.png",
   },
 ];
 
@@ -95,7 +50,7 @@ const cardVariants = {
   }),
 };
 
-const TestimonialsPage = () => {
+const Testimonials = () => {
   // State to store the selected video URL
   const [selectedVideoUrl, setSelectedVideoUrl] = useState(null);
 
@@ -106,7 +61,7 @@ const TestimonialsPage = () => {
   return (
     <section
       id="testimonials"
-      className="py-16 bg-blue-800  dark:bg-[#1f2327]"
+      className="py-16 bg-blue-800 m-4 rounded-3xl dark:bg-[#1f2327]"
     >
       <div className="container mx-auto px-8 lg:px-16">
         <div className="text-center mb-12" data-aos="fade-up">
@@ -150,6 +105,13 @@ const TestimonialsPage = () => {
             </motion.div>
           ))}
         </div>
+        <div className="flex justify-center pt-5 cursor-pointer" data-aos="fade-up">
+            <Link to={"/patientfeedback"}>
+              <button className=" text-blue-800 font-semibold bg-white px-6 py-2 rounded-md hover:bg-gray-200">
+                See More
+              </button>
+            </Link>
+          </div>
       </div>
 
       {/* Video Modal */}
@@ -184,4 +146,4 @@ const TestimonialsPage = () => {
   );
 };
 
-export default TestimonialsPage;
+export default Testimonials;
