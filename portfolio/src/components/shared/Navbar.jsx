@@ -100,19 +100,7 @@ const Navbar = () => {
                       name: "About",
                       path: "/About",
                     },
-                    {
-                      name: "Services",
-                      path: "/services",
-                    },
-                    {
-                      name: "Testimonials",
-                      path: "/Testimonials",
-                    },
-                    {
-                      name: "Contact",
-                      path: "/Contact",
-                    },
-                  ].map((item, index) => (
+                   ].map((item, index) => (
                     <a
                       key={index}
                       href={`${item.path}`}
@@ -179,21 +167,14 @@ const Navbar = () => {
               <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 {[
                   {
+                    name: "Home",
+                    path: "/",
+                  },
+                  {
                     name: "About",
                     path: "/About",
                   },
-                  {
-                    name: "Services",
-                    path: "/Services",
-                  },
-                  {
-                    name: "Testimonials",
-                    path: "/Testimonials",
-                  },
-                  {
-                    name: "Contact",
-                    path: "/Contact",
-                  },
+              
                 ].map((item, index) => (
                   <a
                     key={index}
