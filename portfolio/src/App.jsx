@@ -7,9 +7,24 @@ import Navbar from './components/shared/Navbar'
 import Footer from './components/shared/Footer'
 import TestimonialsPage from './pages/Testimonials'
 import Contact from './pages/Contact'
+// import { useEffect, useState } from 'react'
+// import Modal from './components/Modal.jsx'
 
 
 function App() {
+  // const [isModalOpen, setIsModalOpen] = useState(false);
+  
+
+  // const handleCloseModal = () => {
+  //   setIsModalOpen(false);
+  // };
+
+  // useEffect(() => {
+  //   // Optional: If you want to delay the modal or add an effect
+  //   // setTimeout(() => setIsModalOpen(true), 1000); // Show modal after 1 
+  //   setTimeout(() => setIsModalOpen(true), 1000);
+  // }, []);
+
   const appRouter = createBrowserRouter([
     {
       path: "/",
@@ -31,10 +46,13 @@ function App() {
   ])
   return (
     <>
+    {/* <div >
+    <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
+    </div> */}
+    
     <Navbar/>
-
       <RouterProvider router={appRouter}/>
-
+    
     <Footer/>
       
     </>

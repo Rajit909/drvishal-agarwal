@@ -174,7 +174,6 @@ const Navbar = () => {
                     name: "About",
                     path: "/About",
                   },
-              
                 ].map((item, index) => (
                   <a
                     key={index}

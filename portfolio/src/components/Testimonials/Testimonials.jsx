@@ -84,13 +84,13 @@ const Testimonials = () => {
               initial="hidden"
               animate="visible"
               custom={index}
-              whileHover={{ scale: 1.02 }}
+              whileHover={{ scale: 1.01, transition: { duration: 0.3 } }}
             >
               <div className="mb-4 flex flex-col justify-center items-center relative">
                 <img
                   src={item.imageurl}
                   alt={item.name}
-                  className="w-full h-72 rounded-xl"
+                  className="w-full h-72 rounded-xl object-cover"
                 />
                 <button
                   onClick={() => toggleModal(item.youtuburl)} // Pass the video URL on click
