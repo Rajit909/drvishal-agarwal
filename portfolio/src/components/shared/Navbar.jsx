@@ -112,9 +112,9 @@ const Navbar = () => {
                       name: "Contact",
                       path: "/Contact",
                     },
-                  ].map((item) => (
+                  ].map((item, index) => (
                     <a
-                      key={item}
+                      key={index}
                       href={`${item.path}`}
                       className="hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     >
@@ -194,9 +194,9 @@ const Navbar = () => {
                     name: "Contact",
                     path: "/Contact",
                   },
-                ].map((item) => (
+                ].map((item, index) => (
                   <a
-                    key={item}
+                    key={index}
                     href={`${item.path}`}
                     className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-800"
                   >

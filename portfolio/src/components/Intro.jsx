@@ -26,18 +26,19 @@ const IntroSection = () => {
 
           {/* Buttons */}
           <div className="flex items-center justify-center space-x-4">
-            {/* Get Started Button */}
             <button className="bg-blue-700 px-6 py-3 text-white rounded-md hover:bg-blue-500 transition duration-300">
               GET STARTED
             </button>
 
-            {/* Play Button */}
-
-            <button onClick={toggelModal}>
-              <span className="text-xl">
-                <PlayButton />
-              </span>
-            </button>
+            <div>
+              <button onClick={toggelModal}>
+                <span className="text-xl">
+                 <div>
+                 <PlayButton />
+                 </div>
+                </span>
+              </button>
+            </div>
           </div>
         </div>
       </div>

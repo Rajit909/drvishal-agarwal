@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Navbar from './components/shared/Navbar'
 import Footer from './components/shared/Footer'
 import TestimonialsPage from './pages/Testimonials'
+import Contact from './pages/Contact'
 
 
 function App() {
@@ -21,6 +22,10 @@ function App() {
     {
       path: "/patientfeedback",
       element: <TestimonialsPage/>
+    },
+    {
+      path: "/contact",
+      element: <Contact/>
     }
     
   ])

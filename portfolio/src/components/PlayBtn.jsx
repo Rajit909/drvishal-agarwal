@@ -12,11 +12,11 @@ const PlayButton = () => {
           <span className="absolute inline-flex left-0 h-full w-full rounded-full bg-blue-500 opacity-25"></span>
 
           {/* Play Button */}
-          <button className="relative z-10 w-12 h-12 ">
+          <div className="relative z-10 w-10 h-10 ">
             <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-blue-700 hover:bg-blue-500 hover:text-white shadow-lg ml-1">
               <CiPlay1 className="ml-1 " />
             </div>
-          </button>
+          </div>
         </div>
       </div>
     </>
