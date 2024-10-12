@@ -21,7 +21,7 @@ const About = () => {
       >
         <div className="about-top h-96 bg-cover bg-center">
           <h1 className="font-extrabold mx-4 md:mx-16 p-4 text-4xl md:text-6xl text-blue-800" >
-            About me
+            About Dr. Vishal Agarwal
           </h1>
           <div className="mx-6 md:mx-20 flex items-center">
             <Link to={"/"}>
@@ -42,7 +42,7 @@ const About = () => {
           {/* Descriptin */}
           <div className="p-1 py-4 md:p-10" data-aos="fade-right">
             <h2 className="text-2xl md:text-4xl font-bold text-gray dark:text-white-800 mb-4">
-              <div>About Me</div>
+              <div>About Dr. Vishal Agarwal</div>
               <div>M.Ch. - CTV Surgery</div>
               <div>Senior Cardiac Surgeon</div>
             </h2>
