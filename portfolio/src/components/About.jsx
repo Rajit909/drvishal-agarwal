@@ -18,7 +18,7 @@ const About = () => {
         <div className="lg:w-1/2 w-full">
           <div data-aos="fade-up">
           <h2 className="text-4xl font-bold text-gray dark:text-white-800 mb-4">
-            About Me
+            About Dr. Vishal Agarwal
           </h2>
           <p className="text-lg text-gray-600 mb-4 dark:text-white">
             Hi, I'm Dr. Vishal Agarwal, a board-certified cardiac surgeon with
