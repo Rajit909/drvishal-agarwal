@@ -17,7 +17,11 @@ const IntroSection = () => {
             Best Surgeon for Cardiac Surgery
           </h1>
           <p className="text-sm md:text-base lg:text-lg mb-6 max-w-xl mx-auto">
-          Heart health is my passion, and as an experienced cardiac surgeon, I am committed to providing top-tier surgical care for my patients. Utilizing the latest advancements in cardiac surgery, my goal is to help patients overcome heart conditions and lead active, fulfilling lives.
+          Heart health is my passion, and as an experienced cardiac surgeon,
+          I am committed to providing top-tier surgical care for my patients.
+          Utilizing the latest advancements in cardiac surgery, my goal is to
+          help patients overcome heart conditions and lead active, fulfilling
+          lives.
           </p>
 
           {/* Buttons */}
