@@ -13,7 +13,7 @@ const IntroSection = () => {
      <div className="flex flex-col-reverse lg:flex-row gap-6 items-center h-auto lg:h-screen justify-center px-4 lg:px-8">
         {/* Left Content */}
         <div className="text-center text-gray-800 dark:text-white font-semibold p-4 lg:w-1/2 py-12 lg:py-0">
-          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold mb-4">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
             Best Surgeon for Cardiac Surgery
           </h1>
           <p className="text-sm md:text-base lg:text-lg mb-6 max-w-xl mx-auto">
