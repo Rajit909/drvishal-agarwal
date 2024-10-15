@@ -8,43 +8,47 @@ const IntroSection = () => {
   };
 
   return (
-    <section className="relative ">
-      {/* Text and Content Overlay */}
-      <div
-        className="relative z-10 flex items-center justify-center h-screen bg-cover bg-center w-full"
-        style={{ backgroundImage: "url('./drvishal.jpg')" }}
-      >
-        <div className="text-center text-white px-8 mt-56 font-semibold p-4">
-          <h1 className="text-5xl font-bold mb-4">
-            Best Sergeon for cardiac sergory
+    <section className="mx-auto py-2">
+     {/* Text and Content Overlay */}
+     <div className="flex flex-col-reverse lg:flex-row gap-6 items-center h-auto lg:h-screen justify-center px-4 lg:px-8">
+        {/* Left Content */}
+        <div className="text-center text-gray-800 font-semibold p-4 lg:w-1/2 py-12 lg:py-0">
+          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold mb-4">
+            Best Surgeon for Cardiac Surgery
           </h1>
-          <p className="text-lg mb-6 max-w-xl mx-auto">
-            A pharmacy also called drugstore in American English or community
-            pharmacy or chemist in Commonwealth English or rarely apothecary is
-            a retail shop which provides.
+          <p className="text-sm md:text-base lg:text-lg mb-6 max-w-xl mx-auto">
+            A pharmacy, also called a drugstore in American English or community pharmacy or chemist in Commonwealth English, is a retail shop that provides medication and health-related services.
           </p>
 
           {/* Buttons */}
           <div className="flex items-center justify-center space-x-4">
-            <button className="bg-blue-700 px-6 py-3 text-white rounded-md hover:bg-blue-500 transition duration-300">
+            <button className="bg-blue-700 px-6 py-3 text-white rounded-md hover:bg-blue-500 transition duration-300 text-sm md:text-base">
               GET STARTED
             </button>
 
             <div>
-              <button onClick={toggelModal}>
+              <button onClick={toggelModal} className="flex items-center">
                 <span className="text-xl">
-                 <div>
-                 <PlayButton />
-                 </div>
+                  <PlayButton />
                 </span>
               </button>
             </div>
           </div>
         </div>
+
+        {/* Right Content */}
+        <div className="lg:w-1/2 transform scale-100 lg:scale-90">
+          <img
+            src="/intro/drVishal1.png"
+            alt="Doctor"
+            className="w-full h-auto px-2 sm:py-0 rounded-2xl object-cover shadow-lg"
+            style={{ zIndex: -1 }}
+          />
+        </div>
       </div>
 
       {/* Dark overlay for better contrast */}
-      <div className="absolute inset-0 bg-black opacity-40"></div>
+      {/* <div className="absolute inset-0 bg-black opacity-40"></div> */}
 
       {/* Video Modal */}
       {isModalOpen && (
