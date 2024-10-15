@@ -12,7 +12,7 @@ const IntroSection = () => {
      {/* Text and Content Overlay */}
      <div className="flex flex-col-reverse lg:flex-row gap-6 items-center h-auto lg:h-screen justify-center px-4 lg:px-8">
         {/* Left Content */}
-        <div className="text-center text-gray-800 font-semibold p-4 lg:w-1/2 py-12 lg:py-0">
+        <div className="text-center text-gray-800 dark:text-white font-semibold p-4 lg:w-1/2 py-12 lg:py-0">
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold mb-4">
             Best Surgeon for Cardiac Surgery
           </h1>
@@ -41,7 +41,7 @@ const IntroSection = () => {
           <img
             src="/intro/drVishal1.png"
             alt="Doctor"
-            className="w-full h-auto px-2 sm:py-0 rounded-2xl object-cover shadow-lg"
+            className="w-full h-auto px-2 sm:py-0 rounded-3xl object-cover shadow-lg"
             style={{ zIndex: -1 }}
           />
         </div>
