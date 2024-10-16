@@ -59,7 +59,7 @@ const About = () => {
               including coronary artery bypass grafting (CABG), valve repairs, aortic surgeries,
               and more, always tailored to the specific needs of each patient. 
             </p>
-            <p>
+            <p  className="text-lg text-gray-600 mb-4 dark:text-white">
             Recognized for his exceptional skills both in India and internationally, Dr. Vishal Agarwal has treated patients from around the globe, offering them the highest standard of care. His approach combines cutting-edge technology with compassionate, personalized treatment plans, ensuring that every patient receives comprehensive care from diagnosis through recovery. Best Cardiac Surgeon 
 Your journey to a healthier heart starts here, with Dr. Vishal Agrawal, where excellence in care meets cutting-edge medical science.
             </p>
