@@ -47,11 +47,18 @@ const About = () => {
               <div>Senior Cardiac Surgeon</div>
             </h2>
             <p className="text-lg text-gray-600 mb-4 dark:text-white">
-              Hi, I'm  <span className="font-doctor">Dr. Vishal Agarwal</span>, a board-certified cardiac surgeon with
-              over 15 years of experience. I specialize in minimally invasive
-              heart surgeries and have successfully performed over 7000
-              surgeries to date. My goal is to provide the highest quality care
-              to my patients and help them lead healthier.
+             At the forefront of modern cardiac care, <span className="font-doctor">Dr. Vishal Agarwal</span> is dedicated in delivering advanced,
+              patient-centered cardiovascular and thoracic treatments.
+              With over 15 years of experience and more than 7,000 successful surgeries, 
+              committed to improving the lives of those suffering from complex heart conditions.
+              
+              His mission is to provide world-class cardiac and vascular care,
+              utilizing the latest minimally invasive techniques to ensure faster recovery, 
+              fewer complications, and the best possible outcomes for his patients.
+              <span className="font-doctor">Dr. Vishal Agarwal's</span> expertise spans a range of procedures, 
+              including coronary artery bypass grafting (CABG), valve repairs, aortic surgeries,
+              and more, always tailored to the specific needs of each patient. 
+
             </p>
           </div>
         </div>
