@@ -21,11 +21,10 @@ const About = () => {
             About Dr. Vishal Agarwal
           </h2>
           <p className="text-lg text-gray-600 mb-4 dark:text-white">
-            Hi, I'm Dr. Vishal Agarwal, a board-certified cardiac surgeon with
-            over 15 years of experience. I specialize in minimally invasive
-            heart surgeries and have successfully performed over 7000 surgeries
-            to date. My goal is to provide the highest quality care to my
-            patients and help them lead healthier
+          At the forefront of modern cardiac care, <span className="font-doctor">Dr. Vishal Agrawal</span> is dedicated 
+            in delivering advanced, patient-centered cardiovascular and thoracic treatments.
+            With over 15 years of experience and more than 7,000 successful surgeries, 
+            committed to improving the lives of those suffering from complex heart conditions.
           </p>
           <p className="text-lg text-gray-600 mb-6 dark:text-white">
             With a dedicated team and a state-of-the-art facility, I aim to
