@@ -46,7 +46,7 @@ const About = () => {
               <div>M.Ch. - CTV Surgery</div>
               <div>Senior Cardiac Surgeon</div>
             </h2>
-            <p className="text-lg text-gray-600 mb-4 dark:text-white">
+            <p className="text-lg text-gray-600 mb-4 dark:text-white text-justify">
              At the forefront of modern cardiac care, <span className="font-doctor">Dr. Vishal Agarwal</span> is dedicated in delivering advanced,
               patient-centered cardiovascular and thoracic treatments.
               With over 15 years of experience and more than 7,000 successful surgeries, 
@@ -59,7 +59,7 @@ const About = () => {
               including coronary artery bypass grafting (CABG), valve repairs, aortic surgeries,
               and more, always tailored to the specific needs of each patient. 
             </p>
-            <p  className="text-lg text-gray-600 mb-4 dark:text-white">
+            <p  className="text-lg text-gray-600 mb-4 dark:text-white text-justify">
             Recognized for his exceptional skills both in India and internationally, Dr. Vishal Agarwal has treated patients from around the globe, offering them the highest standard of care. His approach combines cutting-edge technology with compassionate, personalized treatment plans, ensuring that every patient receives comprehensive care from diagnosis through recovery.
             </p>
           </div>
@@ -196,7 +196,7 @@ const About = () => {
               » Performed India's first case out of the total 11 cases, in the
               world, of OAV + Server AR + Anamalous RCA.
             </div>
-            <div className=" text-gray-600 dark:text-gray-200 text-md mb-2">
+            <div className=" text-gray-600 dark:text-gray-200 text-md mb-2 text-justify">
               » Got the privilege in marking Paras the 3rd Center in North India
               to perform Cardiac Surgery at Satellite Center in Vicinity like
               Columbia Asia Hospital, Gurgaon, ORG Hospital, Faridabad, Rama
@@ -232,7 +232,7 @@ const About = () => {
             <div className=" text-gray-500 dark:text-gray-200 text-md mb-2">
             ✓ Mitral Valve Repair & Replacement Re-do Cardiac Surgery.
             </div>
-            <div className=" text-gray-500 dark:text-gray-200 text-md mb-2">
+            <div className=" text-gray-500 dark:text-gray-200 text-md mb-2 text-justify">
             ✓ Surgery for Adult Congenital Heart Disease.✓ Mitral Valve Repair & Replacement Re-do Cardiac Surgery.
             </div>
             {/* membership */}
