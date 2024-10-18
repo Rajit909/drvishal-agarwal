@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import PlayButton from "../components/PlayBtn";
 import { Link } from "react-router-dom";
+import Footer from "../components/shared/Footer";
+import Navbar from "../components/shared/Navbar";
 
 // Dummy testimonials data
 const testimonials = [
@@ -104,6 +106,8 @@ const TestimonialsPage = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <section
       id="testimonials"
       className="py-16 bg-blue-800  dark:bg-[#1f2327]"
@@ -181,6 +185,8 @@ const TestimonialsPage = () => {
         </div>
       )}
     </section>
+    <Footer/>
+    </>
   );
 };
 

@@ -8,6 +8,8 @@ import { IoPerson } from "react-icons/io5";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Navbar from "../components/shared/Navbar";
+import Footer from "../components/shared/Footer";
 
 const About = () => {
   useEffect(() => {
@@ -15,6 +17,7 @@ const About = () => {
   }, []);
   return (
     <>
+    <Navbar/>
       <section
         id="about-me"
         className=" dark:bg-[#1f2327] dark:text-white border-b border-gray-200 dark:border-gray-700"
@@ -240,6 +243,7 @@ Your journey to a healthier heart starts here, with Dr. Vishal Agrawal, where ex
         </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 };

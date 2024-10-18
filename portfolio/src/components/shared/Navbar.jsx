@@ -8,6 +8,7 @@ import {
   TiSocialLinkedin,
   TiSocialTwitter,
 } from "react-icons/ti";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -91,24 +92,34 @@ const Navbar = () => {
             <div className="hidden md:block">
               <div className="ml-10 flex items-center">
                 <div className="ml-10 flex items-baseline space-x-4">
-                  {[
-                    {
-                      name: "Home",
-                      path: "/",
-                    },
-                    {
-                      name: "About",
-                      path: "/About",
-                    },
-                   ].map((item, index) => (
-                    <a
-                      key={index}
-                      href={`${item.path}`}
-                      className="hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >
-                      {item.name}
-                    </a>
-                  ))}
+                  
+                <Link to={"/"}>
+                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                    Home
+                  </button>
+                </Link>
+                <Link to={"/about"}>
+                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                    About Us
+                  </button>
+                </Link>
+                <Link to={"/patientfeedback"}>
+                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                    Testimonials
+                  </button>
+                </Link>
+                <Link to={"/news"}>
+                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                    News & Update
+                  </button>
+                </Link>
+                <Link to={"/contact"}>
+                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                    Contact
+                  </button>
+                </Link>
+               
+    
                 </div>
                 <button
                   onClick={toggleTheme}
@@ -165,24 +176,7 @@ const Navbar = () => {
                 </button>
               </div>
               <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                {[
-                  {
-                    name: "Home",
-                    path: "/",
-                  },
-                  {
-                    name: "About",
-                    path: "/About",
-                  },
-                ].map((item, index) => (
-                  <a
-                    key={index}
-                    href={`${item.path}`}
-                    className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-800"
-                  >
-                    {item.name}
-                  </a>
-                ))}
+               {/* tab button */}
               </div>
             </div>
           </div>

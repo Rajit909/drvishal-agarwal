@@ -9,6 +9,8 @@ import Contact from './Contact.jsx'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react'
+import Navbar from './shared/Navbar.jsx'
+import Footer from './shared/Footer.jsx'
 
 
 const Home = () => {
@@ -20,6 +22,9 @@ const Home = () => {
   return (
     <>
        <div className='dark:text-white dark:bg-[#1f2327] '>
+       <div>
+    <Navbar/>
+    </div>
         {/* <Navbar/> */}
        {/* Intro */}
        <Intro/>
@@ -44,7 +49,6 @@ const Home = () => {
        <Contact/>
 
 
-       {/* <Footer/> */}
        <div className="fixed bottom-0 right-0 p-4">
             <a
               className="bg-blue-800 dark:bg-gray-700 text-white dark:text-blue-200 rounded-full w-10 h-10 flex items-center justify-center"
@@ -54,6 +58,10 @@ const Home = () => {
             </a>
           </div>
        </div>
+       {/* <Footer/> */}
+
+    <div><Footer/></div>
+
     </>
   )
 }

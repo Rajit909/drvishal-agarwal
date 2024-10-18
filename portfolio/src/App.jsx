@@ -1,12 +1,13 @@
-import About from './pages/About'
+import About from './pages/AboutPage'
 import Home from './components/Home'
 
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Navbar from './components/shared/Navbar'
 import Footer from './components/shared/Footer'
-import TestimonialsPage from './pages/Testimonials'
-import Contact from './pages/Contact'
+import TestimonialsPage from './pages/TestimonialsPage'
+import Contact from './pages/ContactPage'
+import News from './pages/News'
 // import { useEffect, useState } from 'react'
 // import Modal from './components/Modal.jsx'
 
@@ -39,6 +40,10 @@ function App() {
       element: <TestimonialsPage/>
     },
     {
+      path: "/news",
+      element: <News/>
+    },
+    {
       path: "/contact",
       element: <Contact/>
     }
@@ -50,9 +55,10 @@ function App() {
     <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
     </div> */}
     
-    <Navbar/>
+   
+    <div>
       <RouterProvider router={appRouter}/>
-    <Footer/>
+    </div>
       
     </>
   )
