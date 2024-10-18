@@ -35,8 +35,8 @@ const Footer = () => {
           <div data-aos="fade-up">
             <h3 className="text-xl font-semibold dark:text-white">Contact Information</h3>
             <ul className="mt-4 space-y-2 text-sm dark:text-gray-200">
-              <li>Phone: +91 97x-xxx-xxxx</li>
-              <li>Email: info@dremail.com</li>
+              <li>Phone: +91 99270 30110</li>
+              <li>Email: drvishal001@redifmail.com</li>
               <li>Address: DD Puram Bareilly, UP</li>
             </ul>
           </div>
