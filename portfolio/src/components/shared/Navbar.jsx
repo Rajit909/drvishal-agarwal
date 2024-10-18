@@ -94,27 +94,27 @@ const Navbar = () => {
                 <div className="ml-10 flex items-baseline space-x-4">
                   
                 <Link to={"/"}>
-                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                  <button className=" border-2 hover:bg-blue-800 hover:text-white px-3 py-1 transition-all duration-300 rounded-xl text-sm font-medium">
                     Home
                   </button>
                 </Link>
                 <Link to={"/about"}>
-                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                  <button className="border-2 hover:bg-blue-800 hover:text-white px-3 py-1 transition-all duration-300 rounded-xl text-sm font-medium">
                     About Us
                   </button>
                 </Link>
                 <Link to={"/patientfeedback"}>
-                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                  <button className="hover:bg-blue-800 border-2 hover:text-white px-3 py-1 transition-all duration-300 rounded-xl text-sm font-medium">
                     Testimonials
                   </button>
                 </Link>
                 <Link to={"/news"}>
-                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                  <button className="hover:bg-blue-800 border-2 hover:text-white px-3 py-1 transition-all duration-300 rounded-xl text-sm font-medium">
                     News & Update
                   </button>
                 </Link>
                 <Link to={"/contact"}>
-                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                  <button className="hover:bg-blue-800 border-2 hover:text-white px-3 py-1 transition-all duration-300 rounded-xl text-sm font-medium">
                     Contact
                   </button>
                 </Link>
@@ -123,7 +123,7 @@ const Navbar = () => {
                 </div>
                 <button
                   onClick={toggleTheme}
-                  className="text-xl font-bold bg-zinc-200 p-2 rounded-full cursor-pointer dark:text-white dark:bg-gray-900 dark:hover:text-white hover:dark:bg-[#1a83c6] text-black"
+                  className="text-xl font-bold bg-zinc-200 p-2 rounded-full cursor-pointer dark:text-white dark:bg-gray-900 dark:hover:text-white hover:dark:bg-[#1a83c6] text-black ml-2"
                 >
                   {theme === "light" ? <MdDarkMode /> : <MdOutlineLightMode />}
                 </button>
@@ -175,8 +175,33 @@ const Navbar = () => {
                   </svg>
                 </button>
               </div>
-              <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <div className="px-2 flex flex-col pt-2 pb-3 space-y-1 sm:px-3">
                {/* tab button */}
+               <Link to={"/"}>
+                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                    Home
+                  </button>
+                </Link>
+                <Link to={"/about"}>
+                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                    About Us
+                  </button>
+                </Link>
+                <Link to={"/patientfeedback"}>
+                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                    Testimonials
+                  </button>
+                </Link>
+                <Link to={"/news"}>
+                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                    News & Update
+                  </button>
+                </Link>
+                <Link to={"/contact"}>
+                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                    Contact
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
