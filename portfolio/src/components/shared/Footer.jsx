@@ -10,7 +10,7 @@ const Footer = () => {
           <div data-aos="fade-up">
             <h3 className="text-xl font-bold dar:text-white font-doctor"> Dr.Vishal Agarwal  </h3>
             <p className="mt-4 text-sm dark:text-gray-200 text-justify">
-             At the forefront of modern cardiac care, Dr. Vishal Agrawal is dedicated in delivering advanced, patient-centered cardiovascular and thoracic treatments. With over 15 years of experience and more than 7,000 successful surgeries, committed to improving the lives of those suffering from complex heart conditions.
+             At the forefront of modern cardiac care, Dr. Vishal Agrawal is dedicated in delivering advanced, patient-centered cardiovascular and thoracic treatments.
             </p>
           </div>
 
