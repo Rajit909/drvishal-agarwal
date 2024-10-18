@@ -21,12 +21,12 @@ const About = () => {
             About Dr. Vishal Agarwal
           </h2>
           <p className="text-lg text-gray-600 mb-4 dark:text-white">
-          At the forefront of modern cardiac care, <span className="font-doctor">Dr. Vishal Agrawal</span> is dedicated 
+          At the forefront of modern cardiac care, <span className="font-doctor text-justify">Dr. Vishal Agrawal</span> is dedicated 
             in delivering advanced, patient-centered cardiovascular and thoracic treatments.
             With over 15 years of experience and more than 7,000 successful surgeries, 
             committed to improving the lives of those suffering from complex heart conditions.
           </p>
-          <p className="text-lg text-gray-600 mb-6 dark:text-white">
+          <p className="text-lg text-gray-600 mb-6 dark:text-white text-justify">
             With a dedicated team and a state-of-the-art facility, I aim to
             provide top-notch services to every patient. Your heart health is my
             priority, and together, we can ensure a healthy and long life.
