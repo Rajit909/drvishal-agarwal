@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 const testimonials = [
   {
     name: "name1",
-    youtuburl: "https://www.youtube.com/embed/hEsxQMJaRZ4?si=NRqjINn-8sF7_9tN",
+    youtuburl: "https://www.youtube.com/embed/fCnQkuyhHNQ?si=iDOSqw7YSBnaJM8O",
     imageurl: "/patientimg/img1.png",
   },
   {
     name: "Vivek ji",
-    youtuburl: "https://www.youtube.com/embed/Yw6xYUrd0RI?si=WrHMTeu7tkB3Om3E",
+    youtuburl: "https://www.youtube.com/embed/LoA1KDMwnLo?si=iyxmrksEjk8tKekU",
     imageurl: "/patientimg/img2.png",
   },
   {
