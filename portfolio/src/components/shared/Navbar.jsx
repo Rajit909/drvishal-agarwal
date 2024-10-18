@@ -177,11 +177,13 @@ const Navbar = () => {
               </div>
               <div className="px-2 flex flex-col pt-2 pb-3 space-y-1 sm:px-3">
                {/* tab button */}
+               <hr />
                <Link to={"/"}>
                   <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
                     Home
                   </button>
                 </Link>
+                
                 <Link to={"/about"}>
                   <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
                     About Us

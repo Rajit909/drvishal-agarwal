@@ -37,7 +37,7 @@ const ContactPage = () => {
           {/* Contact Info Section */}
           <div className="grid md:grid-cols-2 gap-2 lg:gap-8 mb-12">
             {/* Address & Info */}
-            <div className="bg-white dark:bg-slate-700  p-6 rounded-lg ">
+            <div className="bg-white dark:bg-slate-700  p-6 rounded-lg " data-aos="fade-right">
               <h3 className="text-2xl font-bold mb-4 ">Get in Touch</h3>
               <p className="text-gray-700 dark:text-white mb-2">
                 <strong>Address:</strong> DD Puram Bareilly, UP
@@ -52,7 +52,7 @@ const ContactPage = () => {
             </div>
 
             {/* Google Map */}
-            <div className="overflow-hidden rounded-lg ">
+            <div className="overflow-hidden rounded-lg " data-aos="fade-left">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.2605307908366!2d79.42844247499919!3d28.381197995450606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a00721b8465449%3A0x39bec9bf9038a4cb!2sGangasheel%20Advanced%20Medical%20Research%20Institute%20-%20Best%20Hospital%20in%20Bareilly!5e0!3m2!1sen!2sin!4v1729246112841!5m2!1sen!2sin"
                 width="100%"
@@ -69,12 +69,12 @@ const ContactPage = () => {
             onSubmit={handleSubmit}
             className="bg-white dark:bg-slate-700 p-6 rounded-lg shadow-md"
           >
-            <h3 className="text-2xl font-bold mb-6 text-center">
+            <h3 className="text-2xl font-bold mb-6 text-center" data-aos="fade-up">
               Send Us a Message
             </h3>
             <div className="grid md:grid-cols-2 gap-6">
               {/* Name Input */}
-              <div>
+              <div data-aos="fade-up">
                 <label
                   className="block text-gray-700 font-semibold mb-2"
                   htmlFor="name"
@@ -94,7 +94,7 @@ const ContactPage = () => {
               </div>
 
               {/* Email Input */}
-              <div>
+              <div data-aos="fade-up">
                 <label
                   className="block text-gray-700 font-semibold mb-2"
                   htmlFor="email"
@@ -114,7 +114,7 @@ const ContactPage = () => {
               </div>
 
               {/* Message Input */}
-              <div className="md:col-span-2">
+              <div className="md:col-span-2" data-aos="fade-up">
                 <label
                   className="block text-gray-700 font-semibold mb-2"
                   htmlFor="message"
@@ -135,7 +135,7 @@ const ContactPage = () => {
             </div>
 
             {/* Submit Button */}
-            <div className="text-center mt-6">
+            <div className="text-center mt-6" data-aos="fade-up">
               <button
                 type="submit"
                 className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-500 transition duration-300"
