@@ -107,21 +107,27 @@ Your journey to a healthier heart starts here, with Dr. Vishal Agrawal, where ex
             <span className="font-bold text-xl md:text-3xl">Experience</span>
           </div>
           <div className="p-1">
+             <div className="text-lg font-semibold ">
+              <div className="mb-1"> ⨀ Currently working as Director & HOD - Department of CTVS </div>
+              <div className="mb-2 text-gray-600 dark:text-gray-200">
+                At Gangasheel Advanced Medical Research Institute, Bareilly
+              </div>
+            </div>
             <div className="text-lg font-semibold ">
-              <div className="mb-1"> ⨀ Additional Director & HOD - CTVS </div>
+              <div className="mb-1"> ⨀ EX-Additional Director & HOD - CTVS </div>
               <div className="mb-2 text-gray-600 dark:text-gray-200">
                 At Fortis Escorts, Faridabad.
               </div>
             </div>
             <div className="text-lg font-semibold ">
-              <div className=" mb-1">⨀ Director - CTVS</div>
+              <div className=" mb-1">⨀ Ex-Director - CTVS</div>
               <div className="mb-2 text-gray-600 dark:text-gray-200">
                 {" "}
                 At Aakash Healthcare Private Limited, Dwarka.
               </div>
             </div>
             <div className="text-lg font-semibold">
-              <div className=" mb-1">⨀ HOD - CTVS</div>
+              <div className=" mb-1">⨀ Ex-HOD - CTVS</div>
               <div className="text-gray-600 dark:text-gray-200">
                 At Paras Hospital, Gurgaon.
               </div>
@@ -133,13 +139,13 @@ Your journey to a healthier heart starts here, with Dr. Vishal Agrawal, where ex
               </div>
             </div>
             <div className="text-lg font-semibold">
-              <div className=" mb-1">⨀ Senior Consultant</div>
+              <div className=" mb-1">⨀ Ex-Senior Consultant</div>
               <div className="text-gray-600 dark:text-gray-200">
                 At Yashoda Super Speciality Hospital, Ghaziabad.
               </div>
             </div>
             <div className="text-lg font-semibold">
-              <div className=" mb-1">⨀ Consultant</div>
+              <div className=" mb-1">⨀ Ex-Consultant</div>
               <div className="text-gray-600 dark:text-gray-200">
                 Sigma Group of Hospitals, Hyderabad.
               </div>
