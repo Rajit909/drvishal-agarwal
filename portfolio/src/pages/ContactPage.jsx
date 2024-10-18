@@ -39,10 +39,10 @@ const ContactPage = () => {
           {/* Address & Info */}
           <div className="bg-white p-6 rounded-lg ">
             <h3 className="text-2xl font-bold mb-4">Get in Touch</h3>
-            <p className="text-gray-700 mb-2"><strong>Address:</strong> 123 Pulse Street, City Name, Country</p>
-            <p className="text-gray-700 mb-2"><strong>Phone:</strong> +1 (555) 123-4567</p>
-            <p className="text-gray-700 mb-2"><strong>Email:</strong> info@pulsehospital.com</p>
-            <p className="text-gray-700 mb-2"><strong>Working Hours:</strong> Mon-Fri: 8:00 AM - 6:00 PM</p>
+            <p className="text-gray-700 mb-2"><strong>Address:</strong> DD Puram Bareilly, UP</p>
+            <p className="text-gray-700 mb-2"><strong>Phone:</strong> +91 9927030110</p>
+            <p className="text-gray-700 mb-2"><strong>Email:</strong> drvishal001@redifmail.com</p>
+            {/* <p className="text-gray-700 mb-2"><strong>Working Hours:</strong> Mon-Fri: 8:00 AM - 6:00 PM</p> */}
           </div>
 
           {/* Google Map */}
