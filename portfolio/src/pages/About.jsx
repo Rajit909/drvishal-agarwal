@@ -79,20 +79,20 @@ Your journey to a healthier heart starts here, with Dr. Vishal Agrawal, where ex
             <div className="text-lg font-semibold ">
               <div className="mb-1"> ⨀ M.ch. (C.T.V.S.) </div>
               <div className="mb-2 text-gray-600 dark:text-gray-200">
-                College: G.S.V.M. Medical College, Kanpur
+                G.S.V.M. Medical College, Kanpur
               </div>
             </div>
             <div className="text-lg font-semibold ">
               <div className=" mb-1">⨀ M.S. (General Surgery)</div>
               <div className="mb-2 text-gray-600 dark:text-gray-200">
                 {" "}
-                University: Aurangabad University
+                 Aurangabad University
               </div>
             </div>
             <div className="text-lg font-semibold">
               <div className=" mb-1">⨀ M.B.B.S.</div>
               <div className="text-gray-600 dark:text-gray-200">
-                University: Aurangabad University
+                 Aurangabad University
               </div>
             </div>
           </div>
