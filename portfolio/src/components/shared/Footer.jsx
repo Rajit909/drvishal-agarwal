@@ -9,8 +9,8 @@ const Footer = () => {
           {/* About Section */}
           <div data-aos="fade-up">
             <h3 className="text-xl font-bold dar:text-white font-doctor"> Dr.Vishal Agarwal  </h3>
-            <p className="mt-4 text-sm dark:text-gray-200">
-              Dr.   is a renowned cardiac surgeon with over 20 years of experience in heart surgery. He is committed to providing excellent patient care and advanced cardiac treatment.
+            <p className="mt-4 text-sm dark:text-gray-200 text-justify">
+             At the forefront of modern cardiac care, Dr. Vishal Agrawal is dedicated in delivering advanced, patient-centered cardiovascular and thoracic treatments.
             </p>
           </div>
 
@@ -35,8 +35,8 @@ const Footer = () => {
           <div data-aos="fade-up">
             <h3 className="text-xl font-semibold dark:text-white">Contact Information</h3>
             <ul className="mt-4 space-y-2 text-sm dark:text-gray-200">
-              <li>Phone: +91 97x-xxx-xxxx</li>
-              <li>Email: info@dremail.com</li>
+              <li>Phone: +91 99270 30110</li>
+              <li>Email: drvishal001@redifmail.com</li>
               <li>Address: DD Puram Bareilly, UP</li>
             </ul>
           </div>

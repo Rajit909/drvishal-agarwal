@@ -16,12 +16,8 @@ const IntroSection = () => {
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
             Best Surgeon for Cardiac Surgery
           </h1>
-          <p className="text-sm md:text-base lg:text-lg mb-6 max-w-xl mx-auto">
-          Heart health is my passion, and as an experienced cardiac surgeon,
-          I am committed to providing top-tier surgical care for my patients.
-          Utilizing the latest advancements in cardiac surgery, my goal is to
-          help patients overcome heart conditions and lead active, fulfilling
-          lives.
+          <p className="text-sm md:text-base lg:text-lg mb-6 max-w-xl mx-auto text-justify">
+          Your journey to a healthier heart starts here, with Dr. Vishal Agrawal, where excellence in care meets cutting-edge medical science.
           </p>
 
           {/* Buttons */}

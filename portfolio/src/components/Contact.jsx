@@ -44,16 +44,16 @@ const Contact = () => {
             </p>
             <div className="mt-6 space-y-4">
               <div className="flex items-center">
-                <span className="material-icons mr-2 text-gray-600 dark:text-gray-300">email</span>
-                <p className="text-gray-600 dark:text-gray-300">contact@website.com</p>
+                <span className="material-icons mr-2 text-gray-600 dark:text-gray-300">email:</span>
+                <p className="text-gray-600 dark:text-gray-300">drvishal001@redifmail.com</p>
               </div>
               <div className="flex items-center">
-                <span className="material-icons mr-2 text-gray-600 dark:text-gray-300">phone</span>
-                <p className="text-gray-600 dark:text-gray-300">+123 456 789</p>
+                <span className="material-icons mr-2 text-gray-600 dark:text-gray-300">phone:</span>
+                <p className="text-gray-600 dark:text-gray-300">+91 9927030110</p>
               </div>
               <div className="flex items-center">
-                <span className="material-icons mr-2 text-gray-600 dark:text-gray-300">location_on</span>
-                <p className="text-gray-600 dark:text-gray-300">123 Street, City, Country</p>
+                <span className="material-icons mr-2 text-gray-600 dark:text-gray-300">Address: </span>
+                <p className="text-gray-600 dark:text-gray-300">DD Puram Bareilly, UP</p>
               </div>
             </div>
           </div>
