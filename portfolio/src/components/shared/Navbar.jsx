@@ -8,12 +8,16 @@ import {
   TiSocialLinkedin,
   TiSocialTwitter,
 } from "react-icons/ti";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
   const [show, setShow] = useState(true);
+
+  const navigate = useNavigate();
+
+  const location = useLocation();
   
   let lastScrollY = 0;
 
@@ -93,31 +97,48 @@ const Navbar = () => {
               <div className="ml-10 flex items-center">
                 <div className="ml-10 flex items-baseline space-x-4">
                   
-                <Link to={"/"}>
-                  <button className=" border-2 hover:bg-blue-800 hover:text-white px-3 py-1 transition-all duration-300 rounded-xl text-sm font-medium">
-                    Home
-                  </button>
-                </Link>
-                <Link to={"/about"}>
+                  {
+                    location.pathname !== "/" && (
+                      <Link to={"/"}>
+                      <button className=" border-2 hover:bg-blue-800 hover:text-white px-3 py-1 transition-all duration-300 rounded-xl text-sm font-medium">
+                        Home
+                      </button>
+                    </Link>)
+                  }
+              
+              {
+                    location.pathname !== "/about" && (
+                      <Link to={"/about"}>
                   <button className="border-2 hover:bg-blue-800 hover:text-white px-3 py-1 transition-all duration-300 rounded-xl text-sm font-medium">
                     About Us
                   </button>
-                </Link>
-                <Link to={"/patientfeedback"}>
-                  <button className="hover:bg-blue-800 border-2 hover:text-white px-3 py-1 transition-all duration-300 rounded-xl text-sm font-medium">
-                    Testimonials
-                  </button>
-                </Link>
-                <Link to={"/news"}>
-                  <button className="hover:bg-blue-800 border-2 hover:text-white px-3 py-1 transition-all duration-300 rounded-xl text-sm font-medium">
-                    News & Update
-                  </button>
-                </Link>
-                <Link to={"/contact"}>
+                </Link>)
+              }
+                
+              {
+                    location.pathname !== "/patientfeedback" && (
+                      <Link to={"/patientfeedback"}>
+                      <button className="hover:bg-blue-800 border-2 hover:text-white px-3 py-1 transition-all duration-300 rounded-xl text-sm font-medium">
+                        Testimonials
+                      </button>
+                    </Link>)
+              }
+              {
+                    location.pathname !== "/news" && (
+                      <Link to={"/news"}>
+                      <button className="hover:bg-blue-800 border-2 hover:text-white px-3 py-1 transition-all duration-300 rounded-xl text-sm font-medium">
+                        News & Update
+                      </button>
+                    </Link>)
+              }
+                {
+                    location.pathname !== "/contact" && (
+                      <Link to={"/contact"}>
                   <button className="hover:bg-blue-800 border-2 hover:text-white px-3 py-1 transition-all duration-300 rounded-xl text-sm font-medium">
                     Contact
                   </button>
-                </Link>
+                </Link>)
+                }
                
     
                 </div>
@@ -178,32 +199,48 @@ const Navbar = () => {
               <div className="px-2 flex flex-col pt-2 pb-3 space-y-1 sm:px-3">
                {/* tab button */}
                <hr />
-               <Link to={"/"}>
-                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
-                    Home
-                  </button>
-                </Link>
+              {
+                    location.pathname !== "/" && (
+                      <Link to={"/"}>
+                      <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                        Home
+                      </button>
+                    </Link>)
+              }
                 
-                <Link to={"/about"}>
-                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
-                    About Us
-                  </button>
-                </Link>
-                <Link to={"/patientfeedback"}>
-                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
-                    Testimonials
-                  </button>
-                </Link>
-                <Link to={"/news"}>
+               {
+                    location.pathname !== "/about" && (
+                      <Link to={"/about"}>
+                      <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                        About Us
+                      </button>
+                    </Link>
+                    )
+               }
+                {
+                    location.pathname !== "/patientfeedback" && (
+                      <Link to={"/patientfeedback"}>
+                      <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                        Testimonials
+                      </button>
+                    </Link>)
+                }
+               {
+                    location.pathname !== "/news" && (
+                       <Link to={"/news"}>
                   <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
                     News & Update
                   </button>
-                </Link>
-                <Link to={"/contact"}>
-                  <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
-                    Contact
-                  </button>
-                </Link>
+                </Link>)
+               }
+                {
+                  location.pathname !== "/contact" && (
+                    <Link to={"/contact"}>
+                    <button className="hover:bg-blue-800 hover:text-white px-3 py-2 transition-all duration-300 rounded-md text-sm font-medium">
+                      Contact
+                    </button>
+                  </Link>)
+                }
               </div>
             </div>
           </div>
